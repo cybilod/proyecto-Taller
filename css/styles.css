@@ -11,11 +11,7 @@ text-align: center;
 font-family: sans-serif;
 }
 
-header {
-display: flex;
-justify-content: center;
-align-items: center;
-}
+
 
 .head {
     display: flex;
@@ -28,3 +24,80 @@ align-items: center;
     z-index: 100%;
 }
 
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+
+
+.logo a {
+    text-decoration: none;
+    color: aliceblue;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a {
+    display: block;
+    padding: 23px 20px;
+    color: aliceblue;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navbar b {
+    background: #d60101;
+}
+
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .header {
+        height: 60vh !important;
+        background: url(img/header.jpg) no-repeat center;
+        background-size: cover;
+    }
+
+    .title {
+        margin-bottom: 40px;
+        font-size: 60px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    p {
+        margin-bottom: 40px;
+        font-size: 18px;
+    }
+
+    .btn {
+        display: inline-block;
+        margin-top: 15px;
+        padding: 10px 40px;
+        border: 2px solid #f1eef1;
+        color: #eb7acf;
+        text-decoration: none;
+        background: #f1eef1;
+    }
+
+.btn:hover {
+    background: none;
+}
+
+    .btn-home {
+        display: flex;
+    }
+
+    .btn-home a {
+        margin: 0 10px;
+    }
