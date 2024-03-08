@@ -8,8 +8,7 @@
 
 body {
 text-align: center;
-font-family: Hellow Valentina;
-src: url(Hello\ Valentina.ttf);
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 
@@ -19,7 +18,7 @@ src: url(Hello\ Valentina.ttf);
     align-items: center;
     justify-content: space-between;
     height: 63px;
-    background: #171717;
+    background: #0f0d0d;
     position: fixed;
     width: 100%;
     z-index: 100%;
@@ -28,19 +27,6 @@ src: url(Hello\ Valentina.ttf);
 .navbar {
     display: flex;
     margin-right: 10px;
-}
-
-.logo {
-    margin-left: 30px;
-}
-
-
-
-.logo a {
-    text-decoration: none;
-    color: aliceblue;
-    text-transform: uppercase;
-    font-size: 20px;
 }
 
 .navbar a {
@@ -52,12 +38,12 @@ src: url(Hello\ Valentina.ttf);
     font-size: 20px;
 }
 
-.navbar b {
-    background: #d60101;
+.navbar a:hover {
+    background: #f194dd;
 }
 
 
-header {
+.header {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -113,7 +99,8 @@ header {
 
     .sau {
         padding: 30px;
-        background: #1f1d1d;
+        background: #000000;
+        color: #fffbfe;
     }
 
     .box-container{
@@ -126,7 +113,7 @@ header {
     .box-container .box {
         height: 11rem;
         width: 17rem;
-        background: #101010;
+        background: #ffffff;
         text-align: center;
         border-radius: 1rem;
         box-shadow: 0 .3 5rem rgba(0, 0, 0, -5);
