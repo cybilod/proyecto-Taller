@@ -50,8 +50,8 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
 
     .header {
-        height: 60vh !important;
-        background: url(img/header.jpg) no-repeat center;
+        height: 70vh !important;
+        background: url(https://us.123rf.com/450wm/maximkabb/maximkabb2311/maximkabb231100599/217771968-beautiful-cherry-tree-blossoming-on-spring-beauty-in-nature-tender-cherry-branches-on-sunny-spring.jpg?ver=6) no-repeat center;
         background-size: cover;
     }
 
@@ -65,6 +65,7 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     p {
         margin-bottom: 40px;
         font-size: 18px;
+        color: #000000 ;
     }
 
     .btn {
